@@ -23,10 +23,10 @@ internal class Program
     {
         return op switch
         {
-            '+' => a + b,
-            '-' => a - b,
-            '*' => a * b,
-            '/' => a / b,
+            '+' => b + a,
+            '-' => b - a,
+            '*' => b * a,
+            '/' => b / a,
             _ => throw new ArgumentException("invalid operator")
         };
     }
@@ -52,7 +52,7 @@ internal class Program
             {
                 while (j < input.Length && IsNumber(input[j]))
                 {
-                    number += c;
+                    number += input[j];
                     j++;
                 }
 
