@@ -30,7 +30,6 @@ internal class Program
             _ => throw new ArgumentException("invalid operator")
         };
     }
-    public static bool IsOperator(char c) => c == '+' || c == '-' || c == '*' || c == '/';
     public static int GetPrecedence(char op)
     {
         return op switch
