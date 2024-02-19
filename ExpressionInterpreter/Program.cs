@@ -46,11 +46,7 @@ internal class Program
         for (int j = 0; j < input.Length; j++)
         {
             char c = input[j];
-            if (c == ' ')
-            {
-                continue;
-            }
-
+            if (c == ' ') continue;
             string number = string.Empty;
             if (IsNumber(c))
             {
@@ -60,11 +56,7 @@ internal class Program
                     j++;
                 }
 
-                if (number.First() == '0')
-                {
-                    return "ERROR";
-                }
-
+                if (number.First() == '0') return "ERROR";
                 numbers.Push(Convert.ToInt32(number));
                 j--;
             }
