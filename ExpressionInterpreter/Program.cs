@@ -17,8 +17,6 @@ internal class Program
             Console.WriteLine(CheckExpression(operators, numbers, input));   
         }
     }
-
-    public static bool IsNumber(char c) => c >= '0' && c <= '9';
     public static int Evaluate(int a, int b, char op)
     {
         return op switch
@@ -47,9 +45,9 @@ internal class Program
             char c = input[j];
             if (c == ' ') continue;
             string number = string.Empty;
-            if (IsNumber(c))
+            if (char.IsDigit(c))
             {
-                while (j < input.Length && IsNumber(input[j]))
+                while (j < input.Length && char.IsDigit(input[j]))
                 {
                     number += input[j];
                     j++;
