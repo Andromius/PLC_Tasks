@@ -2,7 +2,7 @@
   "profiles": {
     "ExpressionInterpreter": {
       "commandName": "Project",
-      "commandLineArgs": "< C:\\Users\\marti\\Desktop\\PJP\\LAB_1\\ExpressionInterpreter\\ExpressionInterpreter\\input.txt"
+      "commandLineArgs": "< input.txt"
     }
   }
 }
