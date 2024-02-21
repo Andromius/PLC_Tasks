@@ -1,0 +1,31 @@
+﻿// Welcome to the expression playground!
+// Let's mix some arithmetic with a touch of magic.
+
+// Perform basic arithmetic operations and show the results.
+// Note: Expressions are evaluated from left to right.
+
+// Add some numbers and divide the result by 2
+10 + (128 div 4);  // This is a note
+
+// Calculate the remainder of 5 divided by 2 and multiply by the magical world
+5 mod 2 * world
+
+// Let's spice it up with more expressions!
+// Feel free to experiment and discover the wonders of programming.
+
+// Subtract 7 from 20 and add 3 to the result
+20 - 7 + 3;
+
+// Divide 100 by 10 and then multiply the result by 5
+(100 div 10) * 5;
+
+// Perform a complex operation: divide 1000 by 25, add 30, and then subtract 10
+(1000 div 25) + 30 - 10;
+
+// Multiply 4 by 3 and then add 7
+4 * 3 + 7;
+
+// Calculate the remainder of 16 divided by 3, and then divide the result by 2
+16 mod 3 div 2;
+
+// End of expressions

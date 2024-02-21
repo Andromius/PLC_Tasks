@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionInterpreter", "ExpressionInterpreter\ExpressionInterpreter.csproj", "{186A19CF-DF23-47EE-A39D-90E14730F627}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionInterpreter", "ExpressionInterpreter\ExpressionInterpreter.csproj", "{186A19CF-DF23-47EE-A39D-90E14730F627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LexicalAnalyzer", "LexicalAnalyzer\LexicalAnalyzer.csproj", "{66545528-8319-4372-88B9-00D4013F0C5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{186A19CF-DF23-47EE-A39D-90E14730F627}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{186A19CF-DF23-47EE-A39D-90E14730F627}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{186A19CF-DF23-47EE-A39D-90E14730F627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66545528-8319-4372-88B9-00D4013F0C5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66545528-8319-4372-88B9-00D4013F0C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66545528-8319-4372-88B9-00D4013F0C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66545528-8319-4372-88B9-00D4013F0C5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
