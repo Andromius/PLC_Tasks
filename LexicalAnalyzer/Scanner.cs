@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace LexicalAnalyzer;
 internal class Scanner(string path) : IEnumerable<Token>
